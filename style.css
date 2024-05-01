@@ -39,7 +39,7 @@ body {
 .container {
     background-color: var(--neutral-white);
     padding: 30px;
-    width: 50%;
+    width: 40%;
     border-radius: 20px
 }
 .image {
@@ -55,6 +55,7 @@ h1 {
 p{
     color: var(--neutral-wengeBrown);
     margin-bottom: 25px;
+    font-size: 13px;
 }
 
 h3 {
@@ -64,28 +65,115 @@ h3 {
 
 .preparation-time {
     background-color: var(--neutral-roseWhite);
-    padding: 30px;
+    padding: 20px 30px 10px 30px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-ul {
-    margin: 15px;
+.preparation-time > ul {
+    margin: 10px auto 0px 15px;
 }
-
 .preparation-time > ul > li {
     padding-left: 20px;
+    padding-bottom: 10px;
     margin-left: 5px;
-    color: var(--neutral-wengeBrown)
+    font-size: 13px;
+    color: var(--primary-darkRaspbery)
 }
 
 .preparation-time > ul > li > span {
-    color: var(--neutral-wengeBrown);
     font-family: var(--font-outfit);
+    color: var(--neutral-wengeBrown);
+}
+
+.preparation-time > ul > li > span > span {
     font-weight: var(--font-bold);
 }
 
 h2 {
     color: var(--primary-nutmeg);
+    font-weight: var(--font-reg);
+    font-family: var(--font-young);
 }
 
+.ingredients > ul {
+    margin-left: 20px;
+    font-family: var(--font-outfit);
+    font-size: 13px;
+    padding: 15px 0;
+}
 
+.ingredients > ul > li{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: var(--primary-nutmeg)
+}
+
+.ingredients > ul > li > span {
+    color:var(--neutral-wengeBrown);
+}
+
+.instructions {
+    margin-top: 20px
+}
+
+.instructions > ol {
+    padding: 15px 15px 15px 25px;
+    font-family: var(--font-outfit);
+}
+.instructions > ol > li {
+    color: var(--primary-nutmeg);
+    padding-bottom: 10px;
+    font-weight: var(--font-bold);
+    padding-left: 12px ;
+    font-family: var(--font-outfit);
+}
+
+.instructions > ol > li > span  {
+    font-size: 14px;
+    color: var(--neutral-wengeBrown);
+    font-weight: var(--font-reg);
+}
+
+.instructions > ol > li > span > span {
+    font-weight: var(--font-bold);
+}
+
+.nutrition {
+    margin-top: 15px;
+}
+
+.nutrition > p {
+    color: var(--neutral-wengeBrown);
+    font-family: var(--font-outfit);
+    font-size: 14px;
+    padding-top: 15px;
+    margin-bottom: 15px
+}
+
+.nutrition-details {
+    font-family: var(--font-outfit);
+    font-weight: var(--font-mid);
+}
+
+.nutrition-details > p {
+    font-size: 14px;
+    max-width: 55%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: var(--font-reg);
+    padding-top: 10px;
+}
+
+.nutrition-details > p > span {
+    color: var(--primary-nutmeg);
+    font-weight: var(--font-mid);
+}
+
+hr {
+    background-color: var(--neutral-lighgrey);
+    height: 1px;
+    border: none;
+}
